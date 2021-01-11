@@ -1,0 +1,22 @@
+{
+  "name": "project-Hgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx hyext start",
+    "release": "npx hyext release",
+    "config": "npx hyext config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hyext/builder-h5game": "^1.2.3"
+  },
+  "dependencies": {
+    "gsap": "^3.3.3",
+    "pixi.js": "^5.3.0"
+  }
+}
