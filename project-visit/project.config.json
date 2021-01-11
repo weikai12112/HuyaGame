@@ -1,0 +1,30 @@
+{
+  "name": "project-visit",
+  "outputPath": "hyext_dist",
+  "releasePath": "hyext_release",
+  "ignore": [
+    "*.md",
+    "LICENSE",
+    ".git/**",
+    ".gitignore",
+    "package-lock.json"
+  ],
+  "builder": {
+    "name": "@hyext/builder-h5game",
+    "config": {
+      "webTitle": "project-visit",
+      "h5Dir": "./h5",
+      "convertEs6":false,
+      "buildConfig": [
+        {
+          "extType": "web_video_com",
+          "platform": "web"
+        },
+        {
+          "extType": "app_panel",
+          "platform": "app"
+        }
+      ]
+    }
+  }
+}
